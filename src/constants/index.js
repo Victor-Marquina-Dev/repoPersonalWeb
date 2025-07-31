@@ -229,7 +229,7 @@ const testimonials = [
     mentions: "@LucasR",
     review:
       "Colaborar con Víctor fue un verdadero placer. Es profesional, puntual y siempre enfocado en entregar resultados de alta calidad. Su entusiasmo por cada etapa del desarrollo lo convierte en alguien clave para cualquier equipo.",
-    imgPath: "/images/usuario_2.png",
+    imgPath: "/images/usuario_4.png",
   },
   {
     name: "Valeria Torres",
@@ -241,24 +241,37 @@ const testimonials = [
   
 ];
 
+
+
+
 const socialImgs = [
   {
     name: "wspp",
     imgPath: "/images/wspp.png",
+    url: "https://wa.me/934553034"
   },
   {
     name: "github",
     imgPath: "/images/github.png",
+    url: "https://github.com/Victor-Marquina-Dev"
   },
   {
     name: "inst",
     imgPath: "/images/inst.png",
+    url: "https://www.instagram.com/vj_130101"
   },
   {
     name: "linkedin",
     imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/victor-marquina-dev/"
   },
+  {
+    name: "Gmail",
+    imgPath: "/images/gmail.png",
+    url: "mailto:victor.marquina30@gmail.com"
+  }
 ];
+
 
 export {
   words,
