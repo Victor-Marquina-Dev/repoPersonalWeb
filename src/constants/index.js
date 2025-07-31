@@ -238,20 +238,6 @@ const testimonials = [
       "Colaborar con Víctor fue un verdadero placer. Es profesional, puntual y siempre enfocado en entregar resultados de alta calidad. Su entusiasmo por cada etapa del desarrollo lo convierte en alguien clave para cualquier equipo.",
     imgPath: "/images/usuario_3.png",
   },
-  {
-    name: "Mateo Fernández",
-    mentions: "@Mateo_Fernandez",
-    review:
-      "La experiencia con Víctor fue excelente. Renovó por completo nuestro sitio desactualizado y lo convirtió en una plataforma moderna, intuitiva y adaptable. Destaca por su atención al detalle y compromiso con el buen código.",
-    imgPath: "/images/usuario_4.png",
-  },
-  {
-    name: "Otniel Parra",
-    mentions: "@OtnielJese",
-    review:
-      "El conocimiento de Víctor en desarrollo web es impresionante. Nos entregó una solución escalable para nuestra tienda online, y desde entonces las métricas de rendimiento y ventas han mejorado significativamente. ¡Un profesional total!",
-    imgPath: "/images/usuario_5.png",
-  },
   
 ];
 
