@@ -28,10 +28,10 @@ const words = [
 ];
 
 const counterItems = [
-  { value: 3, suffix: "+", label: "Años de Experiencia" },
-  { value: 4, suffix: "+", label: "Satisfied Clients" },
-  { value: 15, suffix: "+", label: "Proyectos Completados" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
+  { value: 3, suffix: "+", label: "👨‍💻 Años de Experiencia" },
+  { value: 100, suffix: "%", label: "📅 Entrega puntual en todos los proyectos" },
+  { value: 4.8, suffix: "/5", label: "⭐ Calificación promedio en Upwork, Fiverr" },
+  { value: 17, suffix: "+", label: "🛠️ 15+ Proyectos Completados" },
 ];
 
 const logoIconsList = [
