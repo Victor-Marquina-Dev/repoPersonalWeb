@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-
+import emailjs from "@emailjs/browser";
 
 import TitleHeader from "../components/TitleHeader";
 import ContactExperience from "../components/heroModels/contact/ContactExperience";
@@ -55,14 +55,14 @@ const Contact = () => {
                 className="w-full flex flex-col gap-7"
               >
                 <div>
-                  <label htmlFor="name">¿Cual es tu nombre ?</label>
+                  <label htmlFor="name">Nombre Completo</label>
                   <input
                     type="text"
                     id="name"
                     name="name"
                     value={form.name}
                     onChange={handleChange}
-                    placeholder="Nombre completo"
+                    placeholder="¿Cual es tu nombre?"
                     required
                   />
                 </div>
@@ -87,7 +87,7 @@ const Contact = () => {
                     name="message"
                     value={form.message}
                     onChange={handleChange}
-                    placeholder="En que te puedo ayudar"
+                    placeholder="¿En que te puedo ayudar?"
                     rows="5"
                     required
                   />
@@ -97,7 +97,7 @@ const Contact = () => {
                   <div className="cta-button group">
                     <div className="bg-circle" />
                     <p className="text">
-                      {loading ? "Sending..." : "Enviar Mensaje"}
+                      {loading ? "Enviando" : "Enviar Mensaje"}
                     </p>
                     <div className="arrow-wrapper">
                       <img src="/images/arrow-down.svg" alt="arrow" />
